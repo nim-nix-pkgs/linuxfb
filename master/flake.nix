@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-linuxfb-master.flake = false;
+  inputs.src-linuxfb-master.ref   = "refs/heads/master";
   inputs.src-linuxfb-master.owner = "luked99";
-  inputs.src-linuxfb-master.ref   = "master";
   inputs.src-linuxfb-master.repo  = "linuxfb.nim";
   inputs.src-linuxfb-master.type  = "github";
   
