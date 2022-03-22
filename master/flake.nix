@@ -1,5 +1,5 @@
 {
-  description = ''Wrapper around the Linux framebuffer driver ioctl API'';
+  description = ''Wrapper for <linux/fb.h> framebuffer ioctls'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-linuxfb-master.flake = false;
   inputs.src-linuxfb-master.owner = "luked99";
-  inputs.src-linuxfb-master.ref   = "refs/heads/master";
+  inputs.src-linuxfb-master.ref   = "master";
   inputs.src-linuxfb-master.repo  = "linuxfb.nim";
   inputs.src-linuxfb-master.type  = "github";
   
