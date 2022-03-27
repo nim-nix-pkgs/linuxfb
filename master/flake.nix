@@ -11,6 +11,7 @@
   inputs.src-linuxfb-master.ref   = "refs/heads/master";
   inputs.src-linuxfb-master.owner = "luked99";
   inputs.src-linuxfb-master.repo  = "linuxfb.nim";
+  inputs.src-linuxfb-master.dir   = "";
   inputs.src-linuxfb-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
