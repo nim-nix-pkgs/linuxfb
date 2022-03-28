@@ -11,7 +11,6 @@
   inputs.src-linuxfb-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-linuxfb-v0_1_1.owner = "luked99";
   inputs.src-linuxfb-v0_1_1.repo  = "linuxfb.nim";
-  inputs.src-linuxfb-v0_1_1.dir   = "";
   inputs.src-linuxfb-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
